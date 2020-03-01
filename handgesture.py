@@ -37,7 +37,7 @@ while 1:
     oldcy=cy
   
   cv2.imshow('Output',img)
-  cv2.resizeWindow('Output',sx,sy)
+  cv2.resizeWindow('Output',sx//4,sy//4)
 
 
   k=cv2.waitKey(30) & 0xff
